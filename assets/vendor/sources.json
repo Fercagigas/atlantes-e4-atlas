@@ -1,0 +1,6 @@
+{
+  "d3.min.js": "https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js",
+  "plotly.min.js": "https://cdn.plot.ly/plotly-cartesian-2.35.2.min.js",
+  "../unav-black-logo.svg": "https://www.unav.edu/o/unav-principal-theme/images/unav-black-logo.svg",
+  "../unav-white-logo.svg": "https://www.unav.edu/o/unav-principal-theme/images/unav-white-logo.svg"
+}

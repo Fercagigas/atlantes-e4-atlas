@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "catalog_entries": 5004,
+  "original_files": 19580,
+  "result_files_covered": 19487,
+  "bytes_verified": 1575609817,
+  "site_bytes": 761978337,
+  "data_tables": {
+    "primary_coefficients": 672,
+    "application": 768,
+    "sensitivity_quantities": 5696,
+    "sensitivity_coefficients": 2688,
+    "country_influence": 30668,
+    "simulation_metrics": 1512,
+    "joint_metrics": 91,
+    "coverage": 144
+  },
+  "measurement_sources_verified": 270,
+  "context_and_paper_sources_verified": 326,
+  "browser_visual_review": "Not executed: no browser available through the session UI tool."
+}

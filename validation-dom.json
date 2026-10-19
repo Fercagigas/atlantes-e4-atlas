@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "views": 11,
+  "model_combinations": 144,
+  "regional_case_combinations": 144,
+  "context_case_combinations": 144,
+  "measurement_selections": 54,
+  "checks": [
+    "Separate Asia-Pacific and international findings, seven global population rows and scoped conclusions",
+    "Homepage estimates and intervals agree with the definitive paper",
+    "Context analyses preserve unit, sample, case and exact interaction estimates",
+    "Duplicate Asia-Pacific and Europe pages removed",
+    "Case-specific robustness and psychometric limitations",
+    "Legacy region links open the unified region view",
+    "Psychometrics is the opening page",
+    "Map and regional comparator removed from navigation",
+    "Eight stacked models and eight detailed tables for every population/sample",
+    "Arrows only for evaluable intervals excluding zero",
+    "Route selection by click and keyboard",
+    "Verified measurement diagnostics",
+    "Simulation filters preserve original values",
+    "Empty simulation combinations",
+    "Dedicated case page retained",
+    "Catalog filters",
+    "Original JSON and CSV viewers",
+    "Configurable CSV charts",
+    "Plotly schema validation",
+    "Sensitivity originals and C9",
+    "Document downloads"
+  ],
+  "limitation": "Plotly rendering is stubbed; real Plotly validates the generated trace/layout schemas. This is DOM logic testing, not browser rendering or responsive visual QA.",
+  "homepage_scopes": 2
+}

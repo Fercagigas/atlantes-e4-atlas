@@ -1,0 +1,19 @@
+﻿unit,sample,n,original_n,exclusions
+asia_pacifico,depurada,35,41,Cook Islands; Marshall Islands; Nauru; Niue; Palau; Tuvalu
+asia_pacifico,completa,41,41,
+asia_pacifico_i8global,depurada,35,41,Cook Islands; Marshall Islands; Nauru; Niue; Palau; Tuvalu
+asia_pacifico_i8global,completa,41,41,
+AFR,depurada,47,47,
+AFR,completa,47,47,
+AMR,depurada,30,35,Dominica; Antigua and Barbuda; St. Kitts and Nevis; St. Vincent and the Grenadines; Suriname
+AMR,completa,35,35,
+EMR,depurada,22,22,
+EMR,completa,22,22,
+EUR,depurada,51,56,Liechtenstein; San Marino; Monaco; Andorra; Vatican
+EUR,completa,56,56,
+SEAR,depurada,10,10,
+SEAR,completa,10,10,
+WPR,depurada,24,31,Cook Islands; Palau; Marshall Islands; Tokelau; Niue; Nauru; Tuvalu
+WPR,completa,31,31,
+mundo,depurada,184,201,Liechtenstein; San Marino; Monaco; Andorra; Dominica; Cook Islands; Palau; Vatican; Marshall Islands; Tokelau; Niue; Antigua and Barbuda; Nauru; St. Kitts and Nevis; St. Vincent and the Grenadines; Suriname; Tuvalu
+mundo,completa,201,201,

@@ -1,0 +1,17 @@
+{
+  "combinations": 144,
+  "SEM_states": {
+    "no_aplicable": 16,
+    "ok": 128
+  },
+  "coefficients": 672,
+  "indirect_quantities": 768,
+  "sensitivity_rows": 5760,
+  "influence_rows": 32472,
+  "scenarios": 1024,
+  "scientific_limits": [
+    "cross_sectional_associations",
+    "no_universal_coverage_claim",
+    "C9_not_simulation_validated"
+  ]
+}

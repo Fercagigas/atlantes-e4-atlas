@@ -1,0 +1,37 @@
+{
+  "run_id": "20261018_definitiva",
+  "result": "PASS",
+  "interface": "Construct measurement first; stacked regional cases; interactive uncertainty-aware paths; expanded simulation and visual guides",
+  "checks": {
+    "views": 11,
+    "regional_case_combinations": 144,
+    "measurement_selections": 54,
+    "measurement_source_tasks": 270,
+    "diagram_renders_inspected": 8,
+    "full_browser_visual_review": false,
+    "case_specific_diagnostics": 144,
+    "duplicate_regional_pages_removed": true,
+    "context_case_combinations": 144,
+    "context_and_paper_sources": 326,
+    "homepage_paper_claims_verified": 8,
+    "homepage_scopes": 2,
+    "homepage_global_populations": 7
+  },
+  "source_hashes": {
+    "index.html": "d2e4afff9644dc472650c474533595a934eeeaa40adcf5a2e1a2c03d94089b64",
+    "assets/app.js": "5f3cb7b842d11913ae780f05e7ebb2e831242ba143d479a0eaffa0f4b7342607",
+    "assets/research.js": "0880be0f858f3390a32a0c246faa12412034e957d292b3c873ba0b137a4ba132",
+    "assets/research.css": "fee3118dfaa01e1bae9ea4509a47ce478aa9da18f00678f875e1bc796ea07c0e",
+    "data/measurement.js": "53a12c32ffb950e92d0b1d53062ff1c8410d011721165ebeb83fd4139289ae5d",
+    "data/study.js": "632d9bb6447bca5afe0b5a102a493ac4f22dff13acd8010bbd34a8859985d0db",
+    "data/catalog.js": "a5cf9a5a4aacbf204c151fede7a3bf415367eca0f2ae357385c045bb5393c84f",
+    "assets/context.js": "74c55c6483f7b22d6ff6d7a66be597388401cabcf22894a1a29f1773a4ecd3a0",
+    "data/context.js": "40d1b14c90b96c64f924fae0eed9092bc559c436b94eeaf216c8c1fb3a3d8072",
+    "assets/findings.js": "e45c782fc8c08924b5975fb4374c0ab4638468cac802efe1bd73d5fbf345a203"
+  },
+  "evidence": [
+    "validation.json",
+    "validation-dom.json",
+    "validation-plotly.json"
+  ]
+}

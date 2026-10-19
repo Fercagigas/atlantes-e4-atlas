@@ -1,0 +1,388 @@
+{
+  "run_id": "20261018_definitiva",
+  "scope": "Current paper, supplements, reports and methodology",
+  "validation": {
+    "unit_tests": {
+      "passed": 232,
+      "skipped": 4,
+      "failed": 0
+    },
+    "reconciliation": "paper/validation/reconciliation.json",
+    "pdf_and_docx_layout": "Rendered pages visually inspected; figures embedded and verified.",
+    "website_visual_review": "Not executed; DOM and Plotly schema checks are recorded separately in GithubPages."
+  },
+  "files": {
+    "interpretaciones/AFR/ficha/ficha_AFR.html": {
+      "sha256": "7e67be42b4b0cfa3f533f6bb2c94608818ce0178e6ec1dd4edf1c990c847d89c",
+      "bytes": 2195320
+    },
+    "interpretaciones/AFR/ficha/ficha_AFR.md": {
+      "sha256": "012040b12de1ad13987bf7debff69e6802c8b79365ebb82dc77e2b87b602473b",
+      "bytes": 10328
+    },
+    "interpretaciones/AFR/ficha/ficha_AFR.pdf": {
+      "sha256": "481a1e637366da97531cb8991b482d8dae40fdb3bd65c4cba56bb08b041fbb00",
+      "bytes": 113624
+    },
+    "interpretaciones/AMR/ficha/ficha_AMR.html": {
+      "sha256": "df4b950a73866dd996b91085a5791d828740b0a483fb30dc231989468d20f135",
+      "bytes": 2218851
+    },
+    "interpretaciones/AMR/ficha/ficha_AMR.md": {
+      "sha256": "606ce08a492a99090ce2c880c1e6f19239e6fae84a80b7c5de88721124f197a1",
+      "bytes": 10329
+    },
+    "interpretaciones/AMR/ficha/ficha_AMR.pdf": {
+      "sha256": "cc4a555339b6e900bd9129a62498217c95fcb86cfd077d298df6fa334a24ccc7",
+      "bytes": 113738
+    },
+    "interpretaciones/asia_pacifico/Informe1/informe1.html": {
+      "sha256": "2d822851d786c40c71817576608cac3ce112c41cb43e255d175550601779b45a",
+      "bytes": 2257124
+    },
+    "interpretaciones/asia_pacifico/Informe1/informe1.md": {
+      "sha256": "ec10470a52257736d43b1abd6a2a3b36b33b855deab0a4a0797405b67f2bd403",
+      "bytes": 10276
+    },
+    "interpretaciones/asia_pacifico/Informe1/informe1.pdf": {
+      "sha256": "9ef3c6150ed98c25810c7d9a0744c19d1967bbf6151ef3b673b903bfba307361",
+      "bytes": 113928
+    },
+    "interpretaciones/asia_pacifico/Informe2/informe2.html": {
+      "sha256": "4e09790c06509a6cbb72057903c2138a402b9c1e25d0e6231aedf3f26690b1c8",
+      "bytes": 2257121
+    },
+    "interpretaciones/asia_pacifico/Informe2/informe2.md": {
+      "sha256": "7ebef4fae36057cca878e02577f5e71fec2b2c86a036fc77f8965e234815911d",
+      "bytes": 10275
+    },
+    "interpretaciones/asia_pacifico/Informe2/informe2.pdf": {
+      "sha256": "c84d8ac77b5674fd274facebc6a7eafa4d820d8ba2220d34e82dffe4d3cb755f",
+      "bytes": 113932
+    },
+    "interpretaciones/asia_pacifico/Informe3/informe3.html": {
+      "sha256": "3e1bdee48cd5fb17fd2fcd1516b66519e4bb9027d56140e4091c89bbacb3cfa4",
+      "bytes": 2257162
+    },
+    "interpretaciones/asia_pacifico/Informe3/informe3.md": {
+      "sha256": "3bac8bbbab8a59621e72589a80ad838ba5bfc87a20fdc4e3ffe5e922f99ca92e",
+      "bytes": 10288
+    },
+    "interpretaciones/asia_pacifico/Informe3/informe3.pdf": {
+      "sha256": "08551d0c309f14bc20c72cfd6556f16f57e8ffab336112c86706a68e849c90c6",
+      "bytes": 114477
+    },
+    "interpretaciones/asia_pacifico/Informe5/informe5.html": {
+      "sha256": "89e44021f2a3ecfe83c3954121dc15d5f4ce298c36b98b9a9a154045c1abcd8f",
+      "bytes": 2257136
+    },
+    "interpretaciones/asia_pacifico/Informe5/informe5.md": {
+      "sha256": "7092900f4e5e41bb66f953ed66d2d8e33e7e69eeaae1472240e1820fc51ff24f",
+      "bytes": 10280
+    },
+    "interpretaciones/asia_pacifico/Informe5/informe5.pdf": {
+      "sha256": "1e95c67e03e1c5aa441fd419b9d9e2e8f1e2edc645f255a71b758e239998e3b7",
+      "bytes": 113959
+    },
+    "interpretaciones/asia_pacifico/InformeAnexo/informe_anexo.html": {
+      "sha256": "6536658e68fe12fa7934778442b32b802504969a73f52fb1d3f941f4f159ee9d",
+      "bytes": 2257162
+    },
+    "interpretaciones/asia_pacifico/InformeAnexo/informe_anexo.md": {
+      "sha256": "b05a67dede72842b90f9a1cabe56ce709494b599b45ed725d49b6ada94951f8f",
+      "bytes": 10288
+    },
+    "interpretaciones/asia_pacifico/InformeAnexo/informe_anexo.pdf": {
+      "sha256": "15df00383dfff32793c5ebbb57e8b734c397197723d23ad1726b41a9a002657b",
+      "bytes": 114004
+    },
+    "interpretaciones/asia_pacifico/InformeDescriptivo/informe_descriptivo.html": {
+      "sha256": "7db68d360f18dfe2005c56f805a31085ae50912b16fa4f23e1d71a2df7b50d06",
+      "bytes": 2257133
+    },
+    "interpretaciones/asia_pacifico/InformeDescriptivo/informe_descriptivo.md": {
+      "sha256": "b76100b045c7b7924fff1467f45536d14bc685fd30ed3d2e8a337eb59aa39eaa",
+      "bytes": 10279
+    },
+    "interpretaciones/asia_pacifico/InformeDescriptivo/informe_descriptivo.pdf": {
+      "sha256": "00b0eaaf8863b59bf64c7ad42f1cddb1344be95c512868ccfd14a1c4c203a6ec",
+      "bytes": 113943
+    },
+    "interpretaciones/diferencias_regiones/ficha/ficha_diferencias.html": {
+      "sha256": "10c6711ab738b3a0149471198587171e71f69881860e7cbbe5f4c60c78b607ec",
+      "bytes": 3086003
+    },
+    "interpretaciones/diferencias_regiones/ficha/ficha_diferencias.md": {
+      "sha256": "aba3ec69a1030db98fbf50f2872653b7561af35370248d33823b55ae8ce7e7d6",
+      "bytes": 10269
+    },
+    "interpretaciones/diferencias_regiones/ficha/ficha_diferencias.pdf": {
+      "sha256": "0bae4eeb3b5ef77fcbf133e1f35a71e79e95c8ebc02d86b691803c2f491538ec",
+      "bytes": 113297
+    },
+    "interpretaciones/EMR/ficha/ficha_EMR.html": {
+      "sha256": "e1d019a65b98f72f100ee6f51505659e0bc5b0cb64dad6ace749adfabbf0b7de",
+      "bytes": 2124587
+    },
+    "interpretaciones/EMR/ficha/ficha_EMR.md": {
+      "sha256": "15cfd771242abd906c5a47424caae2798de784ab2f11e8d379e31b3113cb4fca",
+      "bytes": 10374
+    },
+    "interpretaciones/EMR/ficha/ficha_EMR.pdf": {
+      "sha256": "2e2032321ef5689d81ecbc0b7016b896cf46c1ef15ee08723eebeae6d2afe887",
+      "bytes": 113991
+    },
+    "interpretaciones/EUR/ficha/ficha_EUR.html": {
+      "sha256": "c182bdc5bfb309d8e36d0f238dc1f240bea280624f2cbf86031f54fb045b2644",
+      "bytes": 2187452
+    },
+    "interpretaciones/EUR/ficha/ficha_EUR.md": {
+      "sha256": "d2d0b164eb0a31c205b47b08d3fe23040ab8d03599a64bb8c3a43e87b71daaeb",
+      "bytes": 10257
+    },
+    "interpretaciones/EUR/ficha/ficha_EUR.pdf": {
+      "sha256": "2344e4494a1ad2a2ef6198234bcfbfa237d8dab69ec8f1039e67acf6373e4ea5",
+      "bytes": 114033
+    },
+    "interpretaciones/mundo/ficha/ficha_mundo.html": {
+      "sha256": "f83e4ac3053e96e980e00f5cfe53c75209aa89437cbcf25db0713cce6ade169a",
+      "bytes": 3085988
+    },
+    "interpretaciones/mundo/ficha/ficha_mundo.md": {
+      "sha256": "cc37a641282cef865f3188f4ce7c9c1640a395472700dcb7369479988a3b7960",
+      "bytes": 10264
+    },
+    "interpretaciones/mundo/ficha/ficha_mundo.pdf": {
+      "sha256": "eae7d009f6145fe019302b0f5929b055add3e5d8bbf44cbb6323f153255eccde",
+      "bytes": 113429
+    },
+    "interpretaciones/SEAR/ficha/ficha_SEAR.html": {
+      "sha256": "50efbfbb2996c7009411faee2ce7b5420f6eb18e5e8b1bbdc274448e496dae25",
+      "bytes": 1534050
+    },
+    "interpretaciones/SEAR/ficha/ficha_SEAR.md": {
+      "sha256": "22bd3aba31ab18489916bff7902f6ec43372351073c2a6fd44bb38646824ffb6",
+      "bytes": 4667
+    },
+    "interpretaciones/SEAR/ficha/ficha_SEAR.pdf": {
+      "sha256": "dcc53be8e71208e1f8a0e56f8c136a487dd63e270ade0825c6d07acfe95b4fe9",
+      "bytes": 101676
+    },
+    "interpretaciones/WPR/ficha/ficha_WPR.html": {
+      "sha256": "67f56d75ac6a591b9ade5794a97c24a0ed84236e329d4e125aeb1efaca936468",
+      "bytes": 2162345
+    },
+    "interpretaciones/WPR/ficha/ficha_WPR.md": {
+      "sha256": "3403efc394151182deee2ee14de5da513423d3be0dbd9b5450c601b45c1bbc95",
+      "bytes": 10272
+    },
+    "interpretaciones/WPR/ficha/ficha_WPR.pdf": {
+      "sha256": "96a58bc3f13b8bf75cde1417d6ff7abd4139294939964673e22f8e16f1299ee3",
+      "bytes": 113879
+    },
+    "metodologia/metodologia.pdf": {
+      "sha256": "34ebbf075ad9a42350af0f059644fb80b0e604636c0f2fb067fab5112d48ce4c",
+      "bytes": 750149
+    },
+    "metodologia/metodologia.tex": {
+      "sha256": "1bc673fb74b42d1ff3b8d1950b9e06b76c95592531c352c8dba217524d6b0938",
+      "bytes": 115693
+    },
+    "publicacion/definitiva/analisis_definitivo.html": {
+      "sha256": "e17e059dc6d988354e188fd02b9b931b9297c29a0e06abf21b6bed4907e75df8",
+      "bytes": 182620
+    },
+    "publicacion/definitiva/coefficients.csv": {
+      "sha256": "33ad69bdaba8a5e595fbad6842a5508316a3bebeb1d28275d3a9ac814c6cf723",
+      "bytes": 198607
+    },
+    "publicacion/definitiva/country_influence.csv": {
+      "sha256": "17391e53fc54c1f979594da785e6bd0646a9d337225351366b37db73ab55fa47",
+      "bytes": 3472570
+    },
+    "publicacion/definitiva/coverage.csv": {
+      "sha256": "a45bcb02098c494f9f13cfef9ca9c4ed4eab2319704e6ec90abe699f0d296b65",
+      "bytes": 6120
+    },
+    "publicacion/definitiva/indirect_quantities.csv": {
+      "sha256": "7698f8df193196b397dc7f064dff487cad57b8f4178c1c72a4e63d2807d881cd",
+      "bytes": 145561
+    },
+    "publicacion/definitiva/informes.json": {
+      "sha256": "d9a6bd5e7c3fd31ffbca5bfe71895ddb54279771764b6cbaf6455ce3bc326cef",
+      "bytes": 5395
+    },
+    "publicacion/definitiva/informes_sources.json": {
+      "sha256": "52ea7087f25a3e55339e26e6e3d24bdff61456498bf3a93c284f49dd7deb72e7",
+      "bytes": 878011
+    },
+    "publicacion/definitiva/paper/Additional_file_2.zip": {
+      "sha256": "012ebacc86b7d655469886ade567c36fbb4118ef12d4aabb7a37df0a32c1edef",
+      "bytes": 1413766
+    },
+    "publicacion/definitiva/paper/figures/Figure1.pdf": {
+      "sha256": "7a47b99e7b432094d6a88dcac47a4a91abb858d2ae9dee2c42a76736ab088a57",
+      "bytes": 14993
+    },
+    "publicacion/definitiva/paper/figures/Figure1.png": {
+      "sha256": "e5f96a8d7111afab7bf14840fc92a88fa5e0409e0dfaee0140e05b979e4238ad",
+      "bytes": 146199
+    },
+    "publicacion/definitiva/paper/figures/Figure2.pdf": {
+      "sha256": "8df92e5a0e42c03b04746921143d779520271e8571a5b860487b8a823aa53344",
+      "bytes": 13456
+    },
+    "publicacion/definitiva/paper/figures/Figure2.png": {
+      "sha256": "6be374141aa4192708c3e01bb32f220a5f4b4e3e63760b7e3dab2b8d56f1a154",
+      "bytes": 71836
+    },
+    "publicacion/definitiva/paper/figures/Figure3.pdf": {
+      "sha256": "3c4b7454c030fbe73b8edc6eec1caffaa54d02a0271ccda4174a6c0aaa435af5",
+      "bytes": 16115
+    },
+    "publicacion/definitiva/paper/figures/Figure3.png": {
+      "sha256": "7025df4f3a887bfc9fb90bd15da9108a60286bdde945437dcfcc82e6575dfb5e",
+      "bytes": 77437
+    },
+    "publicacion/definitiva/paper/manuscript/manuscript.docx": {
+      "sha256": "a364b8c88628782ad83488a7c870b25e856b7d7f3fce96326b50be371a970689",
+      "bytes": 270114
+    },
+    "publicacion/definitiva/paper/manuscript/manuscript.html": {
+      "sha256": "ac26e15b9a6d66488a2b791f561c4a1357bdbe15c29911fe27e75da5b36e674b",
+      "bytes": 439963
+    },
+    "publicacion/definitiva/paper/manuscript/manuscript.md": {
+      "sha256": "87d7a458c0b10308dacdb425c933141911bfb6704537730f137167f9da0ca04b",
+      "bytes": 36168
+    },
+    "publicacion/definitiva/paper/manuscript/manuscript.pdf": {
+      "sha256": "90e0e4a902cbc5c4451f327a25bc2f255b1c7c798605a8b52633628565faddf2",
+      "bytes": 446912
+    },
+    "publicacion/definitiva/paper/manuscript/manuscript.tex": {
+      "sha256": "40635f7b0856bf056e2ede80a971e04428aa32c8b65864946a64576813ae81ca",
+      "bytes": 44557
+    },
+    "publicacion/definitiva/paper/reproducibility/claims.json": {
+      "sha256": "6e388e5385e0ec83820a54a2a335b6113b19ab0e37f68104795893c4e4a4f78e",
+      "bytes": 30438
+    },
+    "publicacion/definitiva/paper/reproducibility/source_hashes.json": {
+      "sha256": "36277bc8d855eb684ffcb5580d4ab2dadd9e4bd63a609557cd3fb3e581bebd73",
+      "bytes": 125142
+    },
+    "publicacion/definitiva/paper/supplement/supplement.docx": {
+      "sha256": "37c2a26ba83e897aa0254ec9ad753a53e67617f7003e8df2048bcd016f95ead9",
+      "bytes": 25317
+    },
+    "publicacion/definitiva/paper/supplement/supplement.html": {
+      "sha256": "5e296c1596d0ee238db19fd5f9bb3d94884d8ec57196f8b358d791e7908ca88e",
+      "bytes": 52257
+    },
+    "publicacion/definitiva/paper/supplement/supplement.md": {
+      "sha256": "9831c7e1d8cadd7a8baae73079248e13b5c0a1815f6f3a6dad643831de0599e2",
+      "bytes": 35347
+    },
+    "publicacion/definitiva/paper/supplement/supplement.pdf": {
+      "sha256": "488532cfdb16078daacacc7a6e0e5bc33f5d2bb7991da304d52b47ec0f4b4b07",
+      "bytes": 185939
+    },
+    "publicacion/definitiva/paper/supplement/supplement.tex": {
+      "sha256": "a5c721f55513423af37c615c988264c9653ac9500830cd3c8de8e75ae5a5e398",
+      "bytes": 51374
+    },
+    "publicacion/definitiva/paper/tables/coefficients.csv": {
+      "sha256": "33ad69bdaba8a5e595fbad6842a5508316a3bebeb1d28275d3a9ac814c6cf723",
+      "bytes": 198607
+    },
+    "publicacion/definitiva/paper/tables/cohorts.csv": {
+      "sha256": "f044c9502317003033f5ba32969ffd6e68b350bed5b94d1eeae0876799ae49de",
+      "bytes": 1026
+    },
+    "publicacion/definitiva/paper/tables/country_influence.csv": {
+      "sha256": "17391e53fc54c1f979594da785e6bd0646a9d337225351366b37db73ab55fa47",
+      "bytes": 3472570
+    },
+    "publicacion/definitiva/paper/tables/coverage.csv": {
+      "sha256": "a45bcb02098c494f9f13cfef9ca9c4ed4eab2319704e6ec90abe699f0d296b65",
+      "bytes": 6120
+    },
+    "publicacion/definitiva/paper/tables/descriptives.csv": {
+      "sha256": "a14078d08fc8aceacdc184c6b1e3a0ae1947382adf1f940948a9199dea0287a3",
+      "bytes": 15926
+    },
+    "publicacion/definitiva/paper/tables/indirect_quantities.csv": {
+      "sha256": "836a1681efb3bf56248e10b5fd1bc919799eae33c0b0bbed562dc15b18d39738",
+      "bytes": 160075
+    },
+    "publicacion/definitiva/paper/tables/manifest.json": {
+      "sha256": "c89b00f7a28c7be803a642ac00de731b8fb9573583433fc98a9a4c723b6e45eb",
+      "bytes": 1401
+    },
+    "publicacion/definitiva/paper/tables/missingness.csv": {
+      "sha256": "7cdafa9ab5d91749aeaf6a4ccb0d8aa4021ea593df2410c2f2508ee167e02435",
+      "bytes": 37041
+    },
+    "publicacion/definitiva/paper/tables/README.md": {
+      "sha256": "5547b467d2841ba860d1b34e091f1b41aba60fdfa1b1f786791d63d11b7291e2",
+      "bytes": 1570
+    },
+    "publicacion/definitiva/paper/tables/scenario_states.csv": {
+      "sha256": "a3f1d6025e87265643e685cca737531827bc09084fb4967306667e714f61b79e",
+      "bytes": 41645
+    },
+    "publicacion/definitiva/paper/tables/sensitivity_coefficients.csv": {
+      "sha256": "b706f085a5c789fc4f53a6853832468cb155f5a579e2123dba679e3f29945c6b",
+      "bytes": 880596
+    },
+    "publicacion/definitiva/paper/tables/sensitivity_quantities.csv": {
+      "sha256": "e9d9755408cc038a1c867f2ecb31ba43c11a29b976c5fcbf37d25c111e65be9d",
+      "bytes": 976780
+    },
+    "publicacion/definitiva/paper/tables/serial_comparison.csv": {
+      "sha256": "4d391707302dea824927046c8a05870a0f7a23b2d9086fb1a82317978e019d98",
+      "bytes": 6893
+    },
+    "publicacion/definitiva/paper/tables/simulation_atlas.csv": {
+      "sha256": "27a8cfb5f73c08d603c4fda9cc8aa0dc4a75ae01c1c5ef64dd97a5bcd6cd513a",
+      "bytes": 981913
+    },
+    "publicacion/definitiva/paper/tables/simulation_joint.csv": {
+      "sha256": "1d9ed06c01bb5bb0db71989a243701ef29f8c9941339bed30a1da064d0dbe866",
+      "bytes": 16393
+    },
+    "publicacion/definitiva/paper/tables/transport_C1.csv": {
+      "sha256": "3aedc96ac83802242923f4c4f654bdecacbf2212f05fce911431e76f09c6219c",
+      "bytes": 9807
+    },
+    "publicacion/definitiva/paper/validation/numerical.json": {
+      "sha256": "6ac8902f57e6dfc7dc02cadd40490158260966d1b6057c86ea6f46cfac3d0683",
+      "bytes": 358
+    },
+    "publicacion/definitiva/paper/validation/reconciliation.json": {
+      "sha256": "6697277255f3f330eb89e3dcb7018bb7687ee630432ab2196dce6bfb7f5c02c5",
+      "bytes": 366
+    },
+    "publicacion/definitiva/README.md": {
+      "sha256": "b74a7b853a734ee7d8b4dbffac733c94a1e92c2cb7b01af6015f1fd93aa844ea",
+      "bytes": 1000
+    },
+    "publicacion/definitiva/scenario_states.csv": {
+      "sha256": "0f9d86eb053b677bd8511239726d3aabb7ce9154990d29fa4b50f75195ca7b6d",
+      "bytes": 50359
+    },
+    "publicacion/definitiva/sensitivity_quantities.csv": {
+      "sha256": "e9d9755408cc038a1c867f2ecb31ba43c11a29b976c5fcbf37d25c111e65be9d",
+      "bytes": 976780
+    },
+    "publicacion/definitiva/serial_comparison.csv": {
+      "sha256": "f2dc9ee1cbfa1dbd9e38bef4c83bfd8c0517794503705ed44c665f378bd392cc",
+      "bytes": 12479
+    },
+    "publicacion/definitiva/summary.json": {
+      "sha256": "deafae4828a9bea6e6eacec0886f1e177a5f7733ba9e225f2c6941c7effdbe75",
+      "bytes": 366
+    }
+  }
+}

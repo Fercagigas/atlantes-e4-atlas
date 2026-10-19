@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATLANTES E4 · Atlas de resultados</title>
+  <meta name="description" content="Explorador de los resultados del estudio ATLANTES E4: cuidados paliativos, regiones OMS, modelos, robustez y sensibilidad. Fernando Cagigas y Laura Monzón.">
+  <meta name="theme-color" content="#163e51">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/research.css">
+  <script defer src="assets/vendor/d3.min.js"></script>
+  <script defer src="assets/vendor/plotly.min.js"></script>
+  <script defer src="data/study.js"></script>
+  <script defer src="data/catalog.js"></script>
+  <script defer src="data/measurement.js"></script>
+  <script defer src="data/context.js"></script>
+  <script defer src="assets/research.js"></script>
+  <script defer src="assets/context.js"></script>
+  <script defer src="assets/findings.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<aside class="sidebar" aria-label="Navegación principal">
+  <a class="institution" href="https://www.unav.edu/" target="_blank" rel="noopener"><img src="assets/unav-black-logo.svg" alt="Universidad de Navarra" width="190" height="56"></a>
+  <a class="atlas-brand" href="#medicion"><strong>ATLANTES <span>E4</span></strong><small>Atlas de resultados</small></a>
+  <nav id="nav"></nav>
+  <div class="sidebar-bottom"><span class="status-dot"></span> Edición de investigación<br><small>World Map 2025 · Resultados 2026</small><a href="#documentacion">Fernando Cagigas<br>Laura Monzón</a></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><button id="menu" class="icon-button" aria-label="Abrir menú" aria-expanded="false">☰</button><span id="breadcrumb">Explorar el estudio</span><div class="top-actions"><button id="share">Copiar enlace de esta vista</button><button id="print">Imprimir</button></div></header>
+  <main id="main" tabindex="-1"><p class="loading">Cargando el atlas y su índice de resultados…</p></main>
+  <footer><span>ATLANTES E4 · Universidad de Navarra</span><span>Fernando Cagigas &amp; Laura Monzón</span><a href="#metodologia">Cómo interpretar la evidencia</a></footer>
+</div>
+<dialog id="viewer" aria-labelledby="viewer-title"><div class="dialog-header"><div><small id="viewer-source"></small><h2 id="viewer-title">Resultado</h2></div><button id="close-viewer" aria-label="Cerrar resultado">Cerrar ×</button></div><div id="viewer-content"></div></dialog>
+<div id="tooltip" role="tooltip" hidden></div><div id="toast" role="status" aria-live="polite"></div>
+<noscript>Este explorador necesita JavaScript. Los informes PDF de assets/files y el manifiesto data/manifest.json siguen disponibles en la carpeta.</noscript>
+</body></html>

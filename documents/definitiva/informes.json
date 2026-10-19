@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Informe regional África",
+    "unit": "AFR",
+    "source": "interpretaciones/AFR/ficha/ficha_AFR.md",
+    "html": "interpretaciones/AFR/ficha/ficha_AFR.html",
+    "pdf": "interpretaciones/AFR/ficha/ficha_AFR.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 480,
+      "no_aplicable": 26
+    }
+  },
+  {
+    "title": "Informe regional Américas",
+    "unit": "AMR",
+    "source": "interpretaciones/AMR/ficha/ficha_AMR.md",
+    "html": "interpretaciones/AMR/ficha/ficha_AMR.html",
+    "pdf": "interpretaciones/AMR/ficha/ficha_AMR.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 480,
+      "no_aplicable": 26
+    }
+  },
+  {
+    "title": "Informe regional Mediterráneo Oriental",
+    "unit": "EMR",
+    "source": "interpretaciones/EMR/ficha/ficha_EMR.md",
+    "html": "interpretaciones/EMR/ficha/ficha_EMR.html",
+    "pdf": "interpretaciones/EMR/ficha/ficha_EMR.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 480,
+      "no_aplicable": 26
+    }
+  },
+  {
+    "title": "Informe regional Europa",
+    "unit": "EUR",
+    "source": "interpretaciones/EUR/ficha/ficha_EUR.md",
+    "html": "interpretaciones/EUR/ficha/ficha_EUR.html",
+    "pdf": "interpretaciones/EUR/ficha/ficha_EUR.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 480,
+      "no_aplicable": 26
+    }
+  },
+  {
+    "title": "Informe regional Asia Sudoriental",
+    "unit": "SEAR",
+    "source": "interpretaciones/SEAR/ficha/ficha_SEAR.md",
+    "html": "interpretaciones/SEAR/ficha/ficha_SEAR.html",
+    "pdf": "interpretaciones/SEAR/ficha/ficha_SEAR.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 260,
+      "no_aplicable": 246
+    }
+  },
+  {
+    "title": "Informe regional Pacífico Occidental",
+    "unit": "WPR",
+    "source": "interpretaciones/WPR/ficha/ficha_WPR.md",
+    "html": "interpretaciones/WPR/ficha/ficha_WPR.html",
+    "pdf": "interpretaciones/WPR/ficha/ficha_WPR.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 480,
+      "no_aplicable": 26
+    }
+  },
+  {
+    "title": "Informe regional Mundo",
+    "unit": "mundo",
+    "source": "interpretaciones/mundo/ficha/ficha_mundo.md",
+    "html": "interpretaciones/mundo/ficha/ficha_mundo.html",
+    "pdf": "interpretaciones/mundo/ficha/ficha_mundo.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 472,
+      "no_aplicable": 34
+    }
+  },
+  {
+    "title": "Descripción de la cohorte Asia-Pacífico curada",
+    "unit": "asia_pacifico",
+    "source": "interpretaciones/asia_pacifico/InformeDescriptivo/informe_descriptivo.md",
+    "html": "interpretaciones/asia_pacifico/InformeDescriptivo/informe_descriptivo.html",
+    "pdf": "interpretaciones/asia_pacifico/InformeDescriptivo/informe_descriptivo.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 488,
+      "no_aplicable": 18
+    }
+  },
+  {
+    "title": "Medición y componentes Asia-Pacífico curada",
+    "unit": "asia_pacifico",
+    "source": "interpretaciones/asia_pacifico/Informe1/informe1.md",
+    "html": "interpretaciones/asia_pacifico/Informe1/informe1.html",
+    "pdf": "interpretaciones/asia_pacifico/Informe1/informe1.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 488,
+      "no_aplicable": 18
+    }
+  },
+  {
+    "title": "Casuísticas y modelos Asia-Pacífico curada",
+    "unit": "asia_pacifico",
+    "source": "interpretaciones/asia_pacifico/Informe2/informe2.md",
+    "html": "interpretaciones/asia_pacifico/Informe2/informe2.html",
+    "pdf": "interpretaciones/asia_pacifico/Informe2/informe2.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 488,
+      "no_aplicable": 18
+    }
+  },
+  {
+    "title": "Robustez y métodos complementarios Asia-Pacífico curada",
+    "unit": "asia_pacifico",
+    "source": "interpretaciones/asia_pacifico/Informe3/informe3.md",
+    "html": "interpretaciones/asia_pacifico/Informe3/informe3.html",
+    "pdf": "interpretaciones/asia_pacifico/Informe3/informe3.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 488,
+      "no_aplicable": 18
+    }
+  },
+  {
+    "title": "Síntesis e interpretación Asia-Pacífico curada",
+    "unit": "asia_pacifico",
+    "source": "interpretaciones/asia_pacifico/Informe5/informe5.md",
+    "html": "interpretaciones/asia_pacifico/Informe5/informe5.html",
+    "pdf": "interpretaciones/asia_pacifico/Informe5/informe5.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 488,
+      "no_aplicable": 18
+    }
+  },
+  {
+    "title": "Comparación con todas las regiones Asia-Pacífico curada",
+    "unit": "asia_pacifico",
+    "source": "interpretaciones/asia_pacifico/InformeAnexo/informe_anexo.md",
+    "html": "interpretaciones/asia_pacifico/InformeAnexo/informe_anexo.html",
+    "pdf": "interpretaciones/asia_pacifico/InformeAnexo/informe_anexo.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 488,
+      "no_aplicable": 18
+    }
+  },
+  {
+    "title": "Comparación regional Mundo",
+    "unit": "mundo",
+    "source": "interpretaciones/diferencias_regiones/ficha/ficha_diferencias.md",
+    "html": "interpretaciones/diferencias_regiones/ficha/ficha_diferencias.html",
+    "pdf": "interpretaciones/diferencias_regiones/ficha/ficha_diferencias.pdf",
+    "tasks": 506,
+    "state_counts": {
+      "ok": 472,
+      "no_aplicable": 34
+    }
+  }
+]

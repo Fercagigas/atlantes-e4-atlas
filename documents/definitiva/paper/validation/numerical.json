@@ -1,0 +1,15 @@
+{
+  "run_id": "20261018_definitiva",
+  "abstract_words": 240,
+  "coverage_rows": 144,
+  "coefficient_rows": 672,
+  "quantity_rows": 768,
+  "sensitivity_rows": 5760,
+  "influence_rows": 32472,
+  "scenario_rows": 1024,
+  "simulation_rows": 1512,
+  "joint_rows": 91,
+  "source_files_verified": 858,
+  "exports": true,
+  "submission_ready": false
+}
