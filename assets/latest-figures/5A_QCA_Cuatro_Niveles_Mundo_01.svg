@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="154" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 154" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="154"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-154)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="8" width="240" height="140" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="12" y="127" style="font-family: ArialB; font-size: 11px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,254) scale(1,-1)">NECESIDAD</text>
+			<text x="12" y="92" style="font-family: ArialB; font-size: 22px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,184) scale(1,-1)">23/23 = 100,0%</text>
+			<rect x="12" y="58" width="216" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(86%,89%,90%); fill-rule: evenodd;"/>
+			<rect x="12" y="58" width="216.0" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 206.4,54 L 206.4,76 Z" style="stroke: rgb(70%,35%,16%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 2, 2;"/>
+			<text x="12" y="35" style="font-family: Arial; font-size: 8.5px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,70) scale(1,-1)">Denominador: países del nivel I13.</text>
+			<text x="12" y="23" style="font-family: Arial; font-size: 8.5px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,46) scale(1,-1)">Pregunta: ¿cuántos cumplen X?</text>
+			<rect x="255" y="8" width="240" height="140" rx="6" ry="6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,96%); fill-rule: evenodd;"/>
+			<text x="267" y="127" style="font-family: ArialB; font-size: 11px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,254) scale(1,-1)">SUFICIENCIA</text>
+			<text x="267" y="92" style="font-family: ArialB; font-size: 22px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,184) scale(1,-1)">23/91 = 25,3%</text>
+			<rect x="267" y="58" width="216" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(86%,89%,90%); fill-rule: evenodd;"/>
+			<rect x="267" y="58" width="54.5934065934066" height="13" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 461.4,54 L 461.4,76 Z" style="stroke: rgb(70%,35%,16%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 2, 2;"/>
+			<text x="267" y="35" style="font-family: Arial; font-size: 8.5px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,70) scale(1,-1)">Denominador: países con X.</text>
+			<text x="267" y="23" style="font-family: Arial; font-size: 8.5px;fill: rgb(39%,46%,50%); stroke:none;" transform="translate(0,46) scale(1,-1)">Pregunta: ¿cuántos tienen ese I13?</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="150" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 150" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="150"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-150)" style="clip-path: url(#clip)">
+		<g transform="">
+			<path d="M 266.915615,24.799365 L 450.584385,70.200635 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="450.5844 70.20063, 445.6464 70.98571, 446.5809 67.20531" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 44.415615,70.200635 L 228.084385,24.799365 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="228.0844 24.79937, 224.0809 27.79469, 223.1464 24.01429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 44.415615,79.799365 L 228.084385,125.200635 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="228.0844 125.2006, 223.1464 125.9857, 224.0809 122.2053" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 45,75 L 450,75 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="450 75, 445.3947 76.94709, 445.3947 73.05291" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 266.915615,125.200635 L 450.584385,79.799365 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.6;"/>
+			<polygon points="450.5844 79.79937, 446.5809 82.79469, 445.6464 79.01429" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<rect x="341.75" y="52.5" width="34.0" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="347.489013671875" y="54.5" style="font-family: ArialB; font-size: 9px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,109) scale(1,-1)">0,382</text>
+			<rect x="119.25" y="52.5" width="34.0" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="124.989013671875" y="54.5" style="font-family: ArialB; font-size: 9px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,109) scale(1,-1)">0,632</text>
+			<rect x="119.25" y="107.5" width="34.0" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="124.989013671875" y="109.5" style="font-family: ArialB; font-size: 9px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,219) scale(1,-1)">0,753</text>
+			<rect x="141.4" y="80.0" width="34.0" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="147.139013671875" y="82.0" style="font-family: ArialB; font-size: 9px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,164) scale(1,-1)">0,310</text>
+			<rect x="341.75" y="107.5" width="34.0" height="12.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="347.489013671875" y="109.5" style="font-family: ArialB; font-size: 9px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,219) scale(1,-1)">0,235</text>
+			<rect x="7" y="63.0" width="36" height="24.0" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,93%,91%); fill-rule: evenodd;"/>
+			<text x="21.028076171875" y="71.0" style="font-family: ArialB; font-size: 11px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,142) scale(1,-1)">C</text>
+			<rect x="229.5" y="118" width="36.0" height="24" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(86%,91%,99%); fill-rule: evenodd;"/>
+			<text x="243.221923828125" y="126" style="font-family: ArialB; font-size: 11px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,252) scale(1,-1)">G</text>
+			<rect x="229.5" y="8" width="36.0" height="24" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,90%,83%); fill-rule: evenodd;"/>
+			<text x="243.528076171875" y="16" style="font-family: ArialB; font-size: 11px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,32) scale(1,-1)">A</text>
+			<rect x="452" y="63.0" width="36" height="24.0" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,92%,94%); fill-rule: evenodd;"/>
+			<text x="462.354248046875" y="71.0" style="font-family: ArialB; font-size: 11px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,142) scale(1,-1)">I13</text>
+		</g>
+	</g>
+</svg>

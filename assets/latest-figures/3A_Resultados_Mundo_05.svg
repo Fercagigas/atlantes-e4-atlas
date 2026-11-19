@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="251" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 251" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="251"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-251)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="236" style="font-family: ArialB; font-size: 11px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,472) scale(1,-1)">IC del 95% · combinación de Rubin</text>
+			<path d="M 231.846047,25 L 231.846047,216 Z" style="stroke: rgb(39%,46%,50%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 2, 2;"/>
+			<text x="0" y="204" style="font-family: Arial; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,408) scale(1,-1)">A → I13</text>
+			<path d="M 304.031107,207 L 362.35204,207 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="333.19157328891134" cy="207" r="3" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="443" y="204" style="font-family: Arial; font-size: 8px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,408) scale(1,-1)">0,382</text>
+			<text x="0" y="173" style="font-family: Arial; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,346) scale(1,-1)">C → A</text>
+			<path d="M 335.998456,176 L 416.597249,176 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="376.2978525087808" cy="176" r="3" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="443" y="173" style="font-family: Arial; font-size: 8px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,346) scale(1,-1)">0,544</text>
+			<text x="0" y="142" style="font-family: Arial; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,284) scale(1,-1)">C → I13</text>
+			<path d="M 278.703961,145 L 349.458995,145 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="314.0814779427434" cy="145" r="3" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="443" y="142" style="font-family: Arial; font-size: 8px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,284) scale(1,-1)">0,310</text>
+			<text x="0" y="111" style="font-family: Arial; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,222) scale(1,-1)">G → A</text>
+			<path d="M 225,114 L 300.598968,114 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="262.7994842208243" cy="114" r="3" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="443" y="111" style="font-family: Arial; font-size: 8px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,222) scale(1,-1)">0,117</text>
+			<text x="0" y="80" style="font-family: Arial; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,160) scale(1,-1)">G → C</text>
+			<path d="M 385.390101,83 L 435,83 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="410.1950502994429" cy="83" r="3" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="443" y="80" style="font-family: Arial; font-size: 8px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,160) scale(1,-1)">0,672</text>
+			<text x="0" y="49" style="font-family: Arial; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,98) scale(1,-1)">G → I13</text>
+			<path d="M 264.915349,52 L 323.652525,52 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="294.2839367468445" cy="52" r="3" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="443" y="49" style="font-family: Arial; font-size: 8px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,98) scale(1,-1)">0,235</text>
+		</g>
+	</g>
+</svg>

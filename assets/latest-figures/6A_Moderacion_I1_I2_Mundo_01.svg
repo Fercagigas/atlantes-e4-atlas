@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="495" height="160" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 160" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="495" height="160"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-160)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="2.5" y="31" width="125.0" height="28" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(83%,93%,91%); fill-rule: evenodd;"/>
+			<text x="18.490478515624993" y="42" style="font-family: ArialB; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,84) scale(1,-1)">X: predictor de la ruta</text>
+			<rect x="347.5" y="31" width="145.0" height="28" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,92%,94%); fill-rule: evenodd;"/>
+			<text x="382.2421875" y="42" style="font-family: ArialB; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,84) scale(1,-1)">Destino de la ruta</text>
+			<rect x="182.5" y="116" width="125.0" height="28" rx="5" ry="5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,86%,95%); fill-rule: evenodd;"/>
+			<text x="225.74755859375" y="127" style="font-family: ArialB; font-size: 9px;fill: rgb(9%,21%,27%); stroke:none;" transform="translate(0,254) scale(1,-1)">M: I1 o I2</text>
+			<path d="M 135,45 L 340,45 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="340 45, 334.4736 47.33651, 334.4736 42.66349" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 245,113 L 245,55 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="245 55, 247.3365 60.52637, 242.6635 60.52637" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="161.05224609375" y="23" style="font-family: Arial; font-size: 10px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,46) scale(1,-1)">La pendiente puede cambiar según M</text>
+		</g>
+	</g>
+</svg>
