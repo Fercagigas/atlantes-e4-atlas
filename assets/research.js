@@ -106,6 +106,10 @@ function researchDrawFlow(id,u,cid,detailId,buttonsId){
     const g=svg.append('g').datum(r).attr('class','flow-edge '+kind).attr('tabindex',0).attr('role','button').attr('aria-pressed','false').attr('data-path',path).attr('data-direction',kind).attr('aria-label',`${researchPath(path)}. b ${fmt(r?.b)}. ${researchDirectionText(r)}. Seleccionar detalle.`);
     g.append('path').attr('d',d).attr('class','flow-hit');
     g.append('path').attr('d',d).attr('class','flow-line').attr('marker-end',['positive','negative'].includes(kind)?`url(#${id}-${kind})`:null).attr('stroke-width',Number.isFinite(r?.b)?Math.min(5,2+Math.abs(r.b)*2):2);
+    if(kind==='positive'||kind==='negative'){
+      g.append('path').attr('class','sem-traveller').attr('d','M-6 -4L1 0L-6 4')
+        .style('offset-path',"path('"+d+"')").style('stroke',kind==='negative'?'#a43b43':'#126960');
+    }
     g.append('text').attr('x',label[0]).attr('y',label[1]).attr('text-anchor','middle').attr('class','flow-value').text(Number.isFinite(r?.b)?fmt(r.b):'No estimable');
     g.append('title').text(`${researchPath(path)} · b=${fmt(r?.b)} · IC ${researchInterval(r?.ic_lo,r?.ic_hi)} · ${researchDirectionText(r)}`);
     g.on('click',()=>show(r,path,index)).on('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();show(r,path,index)}});

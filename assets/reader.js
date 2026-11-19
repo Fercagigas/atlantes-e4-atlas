@@ -114,7 +114,7 @@ function lessonFor(view) {
     case 'dependencias':return [
       ['La red une funciones','Mundo · 201 países. Cinco conexiones superaron el filtro de estabilidad en 1.000 remuestras. Los vínculos de la red se leen en ambos sentidos.',networkGraphic([['G','C',.421],['C','A',.235],['G','I13',.279],['C','I13',.326],['A','I13',.433]])],
       ['El orden añade una hipótesis','Cuatro órdenes fueron compatibles con la red. Capacidad → Gobernanza → Acceso obtuvo los valores más bajos en los tres criterios al corte 2,50.',diagramRow(['Capacidad','Gobernanza','Acceso'],1)],
-      ['C10-M pone esa idea a prueba','Capacidad se relaciona con gobernanza y con acceso. Las tres funciones se incluyen en la ecuación de servicios. Las flechas expresan la dirección propuesta en el modelo.',networkGraphic([['C','G',.753],['C','A',.632],['C','I13',.310],['G','I13',.235],['A','I13',.382]],true)]
+      ['C10-M pone esa idea a prueba','Capacidad se relaciona con gobernanza y con acceso. Las tres funciones se incluyen en la ecuación de servicios. Las flechas expresan la dirección propuesta en el modelo.',semSummaryDiagram('C10M',window.ATLAS_C10['mundo/C10M'].rows)]
     ];
     case 'medicion':return Object.entries({G:['I3','I4','I5'],C:['I6','I7','I11','I12'],A:['I8','I9','I10']}).map(([key,items])=>[studyBlocks[key],items.map(i=>IND[i]).join(' · ')+'. Estos indicadores forman la puntuación del bloque.',diagramRow(items.concat(studyBlocks[key]),items.length)]);
     case 'regiones':case 'metodologia':{
@@ -122,8 +122,8 @@ function lessonFor(view) {
       if(!paths.length)return [['Muestra regional',scopeLabel+'. Consulta el motivo de aplicabilidad en los modelos.',diagramRow(['Países','Muestra','Estimación'],1)]];
       return paths.map(r=>[researchPath(r.path),scopeLabel+' · C1 · '+r.n+' países. El punto es el cambio estimado en servicios por unidad del predictor. El intervalo muestra su precisión.',intervalGraphic(r.b,r.ic_lo,r.ic_hi)]);
     }
-    case 'modelos':return ['C1','C7','C9','C10-M'].map(c=>[c+' · mundo','Comparación en 201 países. Las tres funciones entran en la ecuación final de servicios. Cambia la estructura propuesta entre ellas.',networkGraphic(L.sem[c].map(r=>{let [y,x]=r.ruta.split(' ~ ');return [blockCode[x],blockCode[y],r.estimate_pooled]}).filter(([x,y])=>x&&y),true)]);
-    case 'contexto':return ['I1','I2'].map(k=>{const seen=cohort.filter(r=>Number.isFinite(r[k]));return [IND[k],scopeLabel+'. '+seen.length+' países con puntuación observada de '+k+'.',bars([['Con dato',seen.length],['Sin dato',cohort.length-seen.length]],Math.max(1,cohort.length))]});
+    case 'modelos':return semModelLessons();
+    case 'contexto':return contextLessons();
     case 'moderacion':return ['I1','I2'].map(m=>[m+' · '+IND[m],'Mundo · 201 países. Número de rutas cuya asociación varía con el indicador según el criterio exploratorio del informe (BH < 0,10).',bars(['C1','C7','C9','C10M'].map(c=>[c,L.moderation.filter(r=>r.unidad==='mundo'&&r.muestra==='completa'&&r.casuistica===c&&r.moderador===m&&r.significativo_fdr==='True').length]),4)]);
     case 'robustez':{
       const rows=D.tables.country_influence.filter(r=>r.unit===state.robunit&&r.sample===state.sample&&r.specification===state.robcase&&r.quantity===state.quantity&&Number.isFinite(r.change)).sort((a,b)=>Math.abs(b.change)-Math.abs(a.change));
@@ -152,7 +152,7 @@ const readerQuestions={
   medicion:'¿Cómo se mide el desarrollo de los cuidados paliativos?',
   regiones:'¿Cómo se relacionan las funciones con los servicios en esta población?',
   modelos:'¿Qué cambia al reorganizar los mismos tres bloques?',
-  contexto:'¿Qué sabemos del contexto de los países?',
+  contexto:'¿Por qué dos países con equipos similares pueden tener servicios distintos?',
   moderacion:'¿Dónde varía la relación con los servicios?',
   qca:'¿Cuándo una condición es necesaria o suficiente?',
   bosques:'¿Cómo aprende un árbol cuando se le exige usar los tres bloques?',
@@ -204,7 +204,7 @@ function mountAtlasReader(view) {
       disclosure.innerHTML='<summary>Cómo interpretar este resultado</summary>';paragraph.before(disclosure);disclosure.append(paragraph);
     }
   }
-  let frames=lessonFor(view),index=0,timer=null,inView=false,manual=false;
+  let frames=lessonFor(view),index=view==='modelos'?Math.max(0,['C1','C7','C9','C10'].indexOf(state.case)):0,timer=null,inView=false,manual=false;
   if(!frames?.length){hero.remove();return}
   const visual=hero.querySelector('.reader-measure'),caption=hero.querySelector('.reader-caption'),play=hero.querySelector('[data-action="play"]');
   const stop=()=>{clearTimeout(timer);timer=null};
@@ -227,6 +227,7 @@ function mountAtlasReader(view) {
     if(!action)return;
     if(action==='play'){
       manual=timer!==null;
+      hero.classList.toggle('pause-sem-motion',manual);
       if(!manual&&index===frames.length-1)index=0;
     }else{manual=true;index+=action==='next'?1:-1}
     schedule();
