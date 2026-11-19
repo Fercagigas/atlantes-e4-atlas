@@ -1,10 +1,13 @@
 ﻿# ATLANTES E4 · Atlas de resultados
 
-Explorador de la colección `20261018_definitiva`, con autoría de **Fernando Cagigas y Laura Monzón**, proyecto ATLANTES, Universidad de Navarra.
+Explorador de la colección `20261018_definitiva` y de los informes actualizados de noviembre de 2026, con autoría de **Fernando Cagigas y Laura Monzón**, proyecto ATLANTES, Universidad de Navarra.
 
 Abre `index.html` en Chrome, Edge o Firefox actualizado. Todas las bibliotecas y datos están incluidos; no necesita servicios externos. También puede servirse con `python -m http.server 8765 --bind 127.0.0.1 --directory GithubPages` desde la raíz del proyecto.
 
 ## Contenido
+
+- Cuatro vistas adicionales: moderación I1–I4, QCA por niveles, random forest y dependencias gaussianas y orden. Las nuevas fuentes se distinguen de la colección histórica. I3 e I4 forman parte de gobernanza y no se dispone aquí de una estimación separada de su moderación.
+- Actualización SEM mundial de C1, C7, C9 y C10-M y acceso a la comparación regional C10-R, sin alterar las casuísticas históricas.
 
 - Inicio con contexto del estudio, construcción de dimensiones, psicometría y diagnósticos visuales calculados para la población seleccionada.
 - Hallazgos y conclusiones del paper en dos bloques de portada: Asia-Pacífico como población principal, y las seis regiones OMS y el mundo como contexto internacional. Cada bloque incluye sus propias conclusiones; el segundo muestra las siete poblaciones en un gráfico y una tabla, incluida la no aplicabilidad de SEAR. Las cifras de referencia de la muestra depurada y sus intervalos se mantienen fijos al cambiar la selección psicométrica.
