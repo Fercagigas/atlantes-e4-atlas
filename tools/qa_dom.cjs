@@ -16,9 +16,9 @@ w.TextDecoder=TextDecoder;w.TextEncoder=TextEncoder;w.DecompressionStream=Decomp
 w.HTMLDialogElement.prototype.showModal=function(){this.open=true};w.HTMLDialogElement.prototype.close=function(){this.open=false};
 w.HTMLElement.prototype.scrollIntoView=function(){};
 Object.defineProperty(w.HTMLElement.prototype,'clientWidth',{get(){return 900}});
-for(const file of ['assets/vendor/d3.min.js','data/geography.js','data/study.js','data/catalog.js','data/measurement.js','data/context.js','data/latest-results.js','data/latest-trees.js'])w.eval(fs.readFileSync(path.join(root,file),'utf8'));
+for(const file of ['assets/vendor/d3.min.js','data/geography.js','data/study.js','data/catalog.js','data/measurement.js','data/context.js','data/latest-results.js','data/tutor-tree.js','data/regional-networks.js'])w.eval(fs.readFileSync(path.join(root,file),'utf8'));
 const appended=w.document.head.append.bind(w.document.head);w.document.head.append=(element)=>{if(element.tagName==='SCRIPT'&&element.src.includes('/data/records/')){const file=element.src.split('/data/records/')[1];w.eval(fs.readFileSync(path.join(root,'data/records',file),'utf8'));return}return appended(element)};
-w.eval(fs.readFileSync(path.join(root,'assets/research.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/context.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/findings.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/latest.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/interactive.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/app.js'),'utf8')+'\nObject.assign(window,{state,render,researchDirection});');
+w.eval(fs.readFileSync(path.join(root,'assets/research.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/context.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/findings.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/latest.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/interactive.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/reader.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'assets/app.js'),'utf8')+'\nObject.assign(window,{state,render,researchDirection});');
 const tick=()=>new Promise(resolve=>setTimeout(resolve,50));
 async function run(){
  assert.equal(w.state.view,'medicion','The atlas opens with psychometrics');
